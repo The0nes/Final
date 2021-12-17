@@ -1,6 +1,6 @@
 #include<iostream>
 #include<ctime>
-//#include<Windows.h>
+#include<Windows.h>
 using namespace std;
 void Shop();
 void Monster();
@@ -191,8 +191,7 @@ int main() {
 
     case 11:
     cout<< "You have beat the game play again sometime" << endl;
-
-    break;   
+    return 0;   
 
 		}//end switch
 	} while (input != 'q' && health > 0);//end game loop
